@@ -51,7 +51,6 @@ img {
   color: white;
   text-decoration: none;
   font-size: 1.25rem;
- 
 }
 
 .main-nav {
@@ -129,14 +128,15 @@ nav {
   width: 1px;
   height: 1px;
   overflow: hidden;
-  background-color: #BF1722;
+  background-color: orangered;
   color: white;
-  padding: 10px
+  padding: 15px 15px;
 }
 
 .skip:focus {
   position: static;
-  top: 0;     
+  top: 0;  
+  outline: 5px solid yellow;
 }
 
 .owner ul {
